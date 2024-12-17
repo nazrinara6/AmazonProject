@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="5" ignored="0" total="20" passed="12" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase failed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase failed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+    <line>
+      <![CDATA[Testcase failed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-17T15:00:46 GMT+06:00" name="Suite" finished-at="2024-12-17T15:10:03 GMT+06:00" duration-ms="557071">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T15:00:46 GMT+06:00" name="Test" finished-at="2024-12-17T15:10:03 GMT+06:00" duration-ms="557071">
+      <class name="amazon_test.Testcase_11">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_11@c730b35]" started-at="2024-12-17T15:05:33 GMT+06:00" name="launch" finished-at="2024-12-17T15:05:37 GMT+06:00" duration-ms="4771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method retried="true" signature="checkout_process()[pri:0, instance:amazon_test.Testcase_11@c730b35]" started-at="2024-12-17T15:05:37 GMT+06:00" name="checkout_process" finished-at="2024-12-17T15:06:11 GMT+06:00" duration-ms="33099" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='submissionURL'][1]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e817b1b9bfadbe9b4e77775f9e5741b, findElement {value=//input[@name='submissionURL'][1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7511/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e817b1b9bfadbe9b4e77775f9e5741b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='submissionURL'][1]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e817b1b9bfadbe9b4e77775f9e5741b, findElement {value=//input[@name='submissionURL'][1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7511/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e817b1b9bfadbe9b4e77775f9e5741b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.CheckoutPage.address_select(CheckoutPage.java:71)
+at amazon_test.Testcase_11.checkout_process(Testcase_11.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_process -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_11@c730b35]" started-at="2024-12-17T15:06:11 GMT+06:00" name="quit" finished-at="2024-12-17T15:06:11 GMT+06:00" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_11@c730b35]" started-at="2024-12-17T15:06:11 GMT+06:00" name="launch" finished-at="2024-12-17T15:06:16 GMT+06:00" duration-ms="4778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="checkout_process()[pri:0, instance:amazon_test.Testcase_11@c730b35]" started-at="2024-12-17T15:06:16 GMT+06:00" name="checkout_process" finished-at="2024-12-17T15:06:47 GMT+06:00" duration-ms="31195" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkout_process -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_11@c730b35]" started-at="2024-12-17T15:06:47 GMT+06:00" name="quit" finished-at="2024-12-17T15:06:48 GMT+06:00" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_11 -->
+      <class name="amazon_test.Testcase_12">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_12@206a70ef]" started-at="2024-12-17T15:06:48 GMT+06:00" name="launch" finished-at="2024-12-17T15:06:53 GMT+06:00" duration-ms="4949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method retried="true" signature="payment_method()[pri:0, instance:amazon_test.Testcase_12@206a70ef]" started-at="2024-12-17T15:06:53 GMT+06:00" name="payment_method" finished-at="2024-12-17T15:07:30 GMT+06:00" duration-ms="37025" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='pmts-instrument-selector pmts-apb-radio-button']"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6d6f5a3cf134e6b03505c81dbe0c483, findElement {value=//span[@class='pmts-instrument-selector pmts-apb-radio-button'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7837/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6d6f5a3cf134e6b03505c81dbe0c483]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='pmts-instrument-selector pmts-apb-radio-button']"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6d6f5a3cf134e6b03505c81dbe0c483, findElement {value=//span[@class='pmts-instrument-selector pmts-apb-radio-button'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7837/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6d6f5a3cf134e6b03505c81dbe0c483
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.CheckoutPage.amazonPayment(CheckoutPage.java:86)
+at amazon_test.Testcase_12.payment_method(Testcase_12.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment_method -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_12@206a70ef]" started-at="2024-12-17T15:07:30 GMT+06:00" name="quit" finished-at="2024-12-17T15:07:30 GMT+06:00" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_12@206a70ef]" started-at="2024-12-17T15:07:30 GMT+06:00" name="launch" finished-at="2024-12-17T15:07:35 GMT+06:00" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="payment_method()[pri:0, instance:amazon_test.Testcase_12@206a70ef]" started-at="2024-12-17T15:07:35 GMT+06:00" name="payment_method" finished-at="2024-12-17T15:08:07 GMT+06:00" duration-ms="31291" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='submissionURL'][1]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f416ee572b429d7094156fe10b334cb9, findElement {value=//input[@name='submissionURL'][1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7993/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f416ee572b429d7094156fe10b334cb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='submissionURL'][1]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f416ee572b429d7094156fe10b334cb9, findElement {value=//input[@name='submissionURL'][1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7993/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f416ee572b429d7094156fe10b334cb9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.CheckoutPage.address_select(CheckoutPage.java:71)
+at amazon_test.Testcase_12.payment_method(Testcase_12.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- payment_method -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_12@206a70ef]" started-at="2024-12-17T15:08:07 GMT+06:00" name="quit" finished-at="2024-12-17T15:08:07 GMT+06:00" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_12 -->
+      <class name="amazon_test.Testcase_01">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_01@4c583ecf]" started-at="2024-12-17T15:00:46 GMT+06:00" name="launch" finished-at="2024-12-17T15:00:51 GMT+06:00" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method retried="true" signature="signup_to_amazon()[pri:0, instance:amazon_test.Testcase_01@4c583ecf]" started-at="2024-12-17T15:00:51 GMT+06:00" name="signup_to_amazon" finished-at="2024-12-17T15:01:02 GMT+06:00" duration-ms="11023" status="SKIP">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8736e6d59e01fa8d1bde03efa4832ce, clickElement {id=f.BA98EB0E954B3B9776479E532E17E2F9.d.8C113E5F0D25B313402BF641978154AE.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5990/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c8736e6d59e01fa8d1bde03efa4832ce)] -> xpath: //a[.='Start here.']]
+Session ID: c8736e6d59e01fa8d1bde03efa4832ce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8736e6d59e01fa8d1bde03efa4832ce, clickElement {id=f.BA98EB0E954B3B9776479E532E17E2F9.d.8C113E5F0D25B313402BF641978154AE.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5990/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c8736e6d59e01fa8d1bde03efa4832ce)] -> xpath: //a[.='Start here.']]
+Session ID: c8736e6d59e01fa8d1bde03efa4832ce
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.HomePage.signup(HomePage.java:68)
+at amazon_test.Testcase_01.signup_to_amazon(Testcase_01.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_to_amazon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_01@4c583ecf]" started-at="2024-12-17T15:01:02 GMT+06:00" name="quit" finished-at="2024-12-17T15:01:03 GMT+06:00" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_01@4c583ecf]" started-at="2024-12-17T15:01:03 GMT+06:00" name="launch" finished-at="2024-12-17T15:01:12 GMT+06:00" duration-ms="9361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="signup_to_amazon()[pri:0, instance:amazon_test.Testcase_01@4c583ecf]" started-at="2024-12-17T15:01:12 GMT+06:00" name="signup_to_amazon" finished-at="2024-12-17T15:01:23 GMT+06:00" duration-ms="10798" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signup_to_amazon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_01@4c583ecf]" started-at="2024-12-17T15:01:23 GMT+06:00" name="quit" finished-at="2024-12-17T15:01:24 GMT+06:00" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_01 -->
+      <class name="amazon_test.Testcase_13">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_13@292b08d6]" started-at="2024-12-17T15:08:07 GMT+06:00" name="launch" finished-at="2024-12-17T15:08:12 GMT+06:00" duration-ms="4639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="coupon_code()[pri:0, instance:amazon_test.Testcase_13@292b08d6]" started-at="2024-12-17T15:08:12 GMT+06:00" name="coupon_code" finished-at="2024-12-17T15:08:31 GMT+06:00" duration-ms="19225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- coupon_code -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_13@292b08d6]" started-at="2024-12-17T15:08:31 GMT+06:00" name="quit" finished-at="2024-12-17T15:08:32 GMT+06:00" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_13 -->
+      <class name="amazon_test.Testcase_02">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_02@5b7a5baa]" started-at="2024-12-17T15:01:24 GMT+06:00" name="launch" finished-at="2024-12-17T15:01:31 GMT+06:00" duration-ms="7312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login_with_correct_un_and_pwd()[pri:0, instance:amazon_test.Testcase_02@5b7a5baa]" started-at="2024-12-17T15:01:31 GMT+06:00" name="login_with_correct_un_and_pwd" finished-at="2024-12-17T15:01:39 GMT+06:00" duration-ms="8313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_with_correct_un_and_pwd -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_02@5b7a5baa]" started-at="2024-12-17T15:01:40 GMT+06:00" name="quit" finished-at="2024-12-17T15:01:40 GMT+06:00" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_02 -->
+      <class name="amazon_test.Testcase_03">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_03@776aec5c]" started-at="2024-12-17T15:01:40 GMT+06:00" name="launch" finished-at="2024-12-17T15:01:46 GMT+06:00" duration-ms="6095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login_with_incorrect_un_pwd()[pri:0, instance:amazon_test.Testcase_03@776aec5c]" started-at="2024-12-17T15:01:46 GMT+06:00" name="login_with_incorrect_un_pwd" finished-at="2024-12-17T15:01:51 GMT+06:00" duration-ms="4852" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_with_incorrect_un_pwd -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_03@776aec5c]" started-at="2024-12-17T15:01:51 GMT+06:00" name="quit" finished-at="2024-12-17T15:01:51 GMT+06:00" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_03 -->
+      <class name="amazon_test.Testcase_14">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_14@22555ebf]" started-at="2024-12-17T15:08:32 GMT+06:00" name="launch" finished-at="2024-12-17T15:08:37 GMT+06:00" duration-ms="4959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method retried="true" signature="ratings()[pri:0, instance:amazon_test.Testcase_14@22555ebf]" started-at="2024-12-17T15:08:37 GMT+06:00" name="ratings" finished-at="2024-12-17T15:09:07 GMT+06:00" duration-ms="29596" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ryp__star__button'])[5]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c266a1ea7041856b08807feb0fffaf58, findElement {value=(//button[@class='ryp__star__button'])[5], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8299/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c266a1ea7041856b08807feb0fffaf58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ryp__star__button'])[5]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c266a1ea7041856b08807feb0fffaf58, findElement {value=(//button[@class='ryp__star__button'])[5], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8299/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c266a1ea7041856b08807feb0fffaf58
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.CustomerReviewPage.fiveStar(CustomerReviewPage.java:30)
+at amazon_test.Testcase_14.ratings(Testcase_14.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratings -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_14@22555ebf]" started-at="2024-12-17T15:09:07 GMT+06:00" name="quit" finished-at="2024-12-17T15:09:07 GMT+06:00" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_14@22555ebf]" started-at="2024-12-17T15:09:07 GMT+06:00" name="launch" finished-at="2024-12-17T15:09:12 GMT+06:00" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="ratings()[pri:0, instance:amazon_test.Testcase_14@22555ebf]" started-at="2024-12-17T15:09:12 GMT+06:00" name="ratings" finished-at="2024-12-17T15:09:42 GMT+06:00" duration-ms="30193" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ryp__star__button'])[5]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06bd9f453bf5917cde1f899b03550b45, findElement {value=(//button[@class='ryp__star__button'])[5], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8424/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06bd9f453bf5917cde1f899b03550b45]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ryp__star__button'])[5]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06bd9f453bf5917cde1f899b03550b45, findElement {value=(//button[@class='ryp__star__button'])[5], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:8424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:8424/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06bd9f453bf5917cde1f899b03550b45
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.CustomerReviewPage.fiveStar(CustomerReviewPage.java:30)
+at amazon_test.Testcase_14.ratings(Testcase_14.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ratings -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_14@22555ebf]" started-at="2024-12-17T15:09:42 GMT+06:00" name="quit" finished-at="2024-12-17T15:09:43 GMT+06:00" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_14 -->
+      <class name="amazon_test.Testcase_10">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_10@3c46e67a]" started-at="2024-12-17T15:05:03 GMT+06:00" name="launch" finished-at="2024-12-17T15:05:08 GMT+06:00" duration-ms="4950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="updating_and_removing_items()[pri:0, instance:amazon_test.Testcase_10@3c46e67a]" started-at="2024-12-17T15:05:08 GMT+06:00" name="updating_and_removing_items" finished-at="2024-12-17T15:05:32 GMT+06:00" duration-ms="23917" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updating_and_removing_items -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_10@3c46e67a]" started-at="2024-12-17T15:05:32 GMT+06:00" name="quit" finished-at="2024-12-17T15:05:33 GMT+06:00" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_10 -->
+      <class name="amazon_test.Testcase_08">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_08@408d971b]" started-at="2024-12-17T15:03:54 GMT+06:00" name="launch" finished-at="2024-12-17T15:04:02 GMT+06:00" duration-ms="8529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="product_sort()[pri:0, instance:amazon_test.Testcase_08@408d971b]" started-at="2024-12-17T15:04:02 GMT+06:00" name="product_sort" finished-at="2024-12-17T15:04:35 GMT+06:00" duration-ms="32827" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- product_sort -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_08@408d971b]" started-at="2024-12-17T15:04:35 GMT+06:00" name="quit" finished-at="2024-12-17T15:04:36 GMT+06:00" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_08 -->
+      <class name="amazon_test.Testcase_09">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_09@6c6cb480]" started-at="2024-12-17T15:04:36 GMT+06:00" name="launch" finished-at="2024-12-17T15:04:40 GMT+06:00" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="add_to_shopping_cart()[pri:0, instance:amazon_test.Testcase_09@6c6cb480]" started-at="2024-12-17T15:04:40 GMT+06:00" name="add_to_shopping_cart" finished-at="2024-12-17T15:05:02 GMT+06:00" duration-ms="22035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_to_shopping_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_09@6c6cb480]" started-at="2024-12-17T15:05:03 GMT+06:00" name="quit" finished-at="2024-12-17T15:05:03 GMT+06:00" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_09 -->
+      <class name="amazon_test.Testcase_15">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_15@36ebc363]" started-at="2024-12-17T15:09:43 GMT+06:00" name="launch" finished-at="2024-12-17T15:09:48 GMT+06:00" duration-ms="4928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="withoutLogin()[pri:0, instance:amazon_test.Testcase_15@36ebc363]" started-at="2024-12-17T15:09:48 GMT+06:00" name="withoutLogin" finished-at="2024-12-17T15:10:03 GMT+06:00" duration-ms="14211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- withoutLogin -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_15@36ebc363]" started-at="2024-12-17T15:10:03 GMT+06:00" name="quit" finished-at="2024-12-17T15:10:03 GMT+06:00" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_15 -->
+      <class name="amazon_test.Testcase_04">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_04@1d296da]" started-at="2024-12-17T15:01:51 GMT+06:00" name="launch" finished-at="2024-12-17T15:01:56 GMT+06:00" duration-ms="4260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method retried="true" signature="edit_information()[pri:0, instance:amazon_test.Testcase_04@1d296da]" started-at="2024-12-17T15:01:56 GMT+06:00" name="edit_information" finished-at="2024-12-17T15:02:10 GMT+06:00" duration-ms="13982" status="SKIP">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4ebb076711c880361b1e3cb38eaaa80, sendKeysToElement {value=[Ljava.lang.CharSequence;@6ed76c9f, id=f.E9B0B39142455D7B06F59E8B03B26EE4.d.04B024CE2A85AEDF0CCD0FE2FC64AD72.e.944}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6342/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b4ebb076711c880361b1e3cb38eaaa80)] -> xpath: //input[@id='address-ui-widgets-enterAddressFullName']]
+Session ID: b4ebb076711c880361b1e3cb38eaaa80]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4ebb076711c880361b1e3cb38eaaa80, sendKeysToElement {value=[Ljava.lang.CharSequence;@6ed76c9f, id=f.E9B0B39142455D7B06F59E8B03B26EE4.d.04B024CE2A85AEDF0CCD0FE2FC64AD72.e.944}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6342/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b4ebb076711c880361b1e3cb38eaaa80)] -> xpath: //input[@id='address-ui-widgets-enterAddressFullName']]
+Session ID: b4ebb076711c880361b1e3cb38eaaa80
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+at amazon_source.YourAddress.name(YourAddress.java:51)
+at amazon_test.Testcase_04.edit_information(Testcase_04.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_information -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_04@1d296da]" started-at="2024-12-17T15:02:10 GMT+06:00" name="quit" finished-at="2024-12-17T15:02:10 GMT+06:00" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_04@1d296da]" started-at="2024-12-17T15:02:10 GMT+06:00" name="launch" finished-at="2024-12-17T15:02:17 GMT+06:00" duration-ms="7420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="edit_information()[pri:0, instance:amazon_test.Testcase_04@1d296da]" started-at="2024-12-17T15:02:17 GMT+06:00" name="edit_information" finished-at="2024-12-17T15:02:28 GMT+06:00" duration-ms="10405" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1978afb5de1014790a06d6eee9e2739d, clickElement {id=f.3ED8ADB30584276B33EC5705C615D852.d.1038FDABB154AC344994611C99E8F578.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6455/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1978afb5de1014790a06d6eee9e2739d)] -> xpath: (//span[.='Sign in'][1])]
+Session ID: 1978afb5de1014790a06d6eee9e2739d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1978afb5de1014790a06d6eee9e2739d, clickElement {id=f.3ED8ADB30584276B33EC5705C615D852.d.1038FDABB154AC344994611C99E8F578.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ROG\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6455}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6455/devtool..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1978afb5de1014790a06d6eee9e2739d)] -> xpath: (//span[.='Sign in'][1])]
+Session ID: 1978afb5de1014790a06d6eee9e2739d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at amazon_source.HomePage.signin(HomePage.java:92)
+at amazon_test.Testcase_04.edit_information(Testcase_04.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edit_information -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_04@1d296da]" started-at="2024-12-17T15:02:28 GMT+06:00" name="quit" finished-at="2024-12-17T15:02:29 GMT+06:00" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_04 -->
+      <class name="amazon_test.Testcase_05">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_05@7c7a06ec]" started-at="2024-12-17T15:02:29 GMT+06:00" name="launch" finished-at="2024-12-17T15:02:32 GMT+06:00" duration-ms="2900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="searching_products()[pri:0, instance:amazon_test.Testcase_05@7c7a06ec]" started-at="2024-12-17T15:02:32 GMT+06:00" name="searching_products" finished-at="2024-12-17T15:02:44 GMT+06:00" duration-ms="12094" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searching_products -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_05@7c7a06ec]" started-at="2024-12-17T15:02:44 GMT+06:00" name="quit" finished-at="2024-12-17T15:02:45 GMT+06:00" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_05 -->
+      <class name="amazon_test.Testcase_06">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_06@75d4a5c2]" started-at="2024-12-17T15:02:45 GMT+06:00" name="launch" finished-at="2024-12-17T15:02:50 GMT+06:00" duration-ms="4957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="product_with_price_range()[pri:0, instance:amazon_test.Testcase_06@75d4a5c2]" started-at="2024-12-17T15:02:50 GMT+06:00" name="product_with_price_range" finished-at="2024-12-17T15:03:30 GMT+06:00" duration-ms="40986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- product_with_price_range -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_06@75d4a5c2]" started-at="2024-12-17T15:03:31 GMT+06:00" name="quit" finished-at="2024-12-17T15:03:31 GMT+06:00" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_06 -->
+      <class name="amazon_test.Testcase_07">
+        <test-method is-config="true" signature="launch()[pri:0, instance:amazon_test.Testcase_07@557caf28]" started-at="2024-12-17T15:03:31 GMT+06:00" name="launch" finished-at="2024-12-17T15:03:37 GMT+06:00" duration-ms="5184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="product_description()[pri:0, instance:amazon_test.Testcase_07@557caf28]" started-at="2024-12-17T15:03:37 GMT+06:00" name="product_description" finished-at="2024-12-17T15:03:53 GMT+06:00" duration-ms="16076" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- product_description -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazon_test.Testcase_07@557caf28]" started-at="2024-12-17T15:03:53 GMT+06:00" name="quit" finished-at="2024-12-17T15:03:54 GMT+06:00" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazon_test.Testcase_07 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

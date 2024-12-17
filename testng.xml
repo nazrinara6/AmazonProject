@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="amazon_test.Testcase_01"/>
+      <class name="amazon_test.Testcase_02"/> 
+      <class name="amazon_test.Testcase_03"/> 
+      <class name="amazon_test.Testcase_04"/>
+      <class name="amazon_test.Testcase_05"/>
+      <class name="amazon_test.Testcase_06"/>
+      <class name="amazon_test.Testcase_07"/>
+      <class name="amazon_test.Testcase_08"/>
+      <class name="amazon_test.Testcase_09"/>
+      <class name="amazon_test.Testcase_10"/>
+      <class name="amazon_test.Testcase_11"/>
+      <class name="amazon_test.Testcase_12"/>
+      <class name="amazon_test.Testcase_13"/>
+      <class name="amazon_test.Testcase_14"/> 
+      <class name="amazon_test.Testcase_15"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
